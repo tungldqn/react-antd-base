@@ -1,11 +1,15 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,600');
 
-// Bootstrap
-@import "bootstrap/scss/bootstrap";
+// antd design
+@import 'antd/dist/antd';
 
-// Variables
-// Components
-// Utilities
-// Vender
+// vendor
+@import 'bootstrap-utilities/bootstrap-utilities';
 
+// components
+@import 'components/content';
+
+// utilities
+@import 'utilities/cursor';
+@import 'utilities/size';
